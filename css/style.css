@@ -36,3 +36,34 @@
 .container2 {
     background-color: #efa3bc;
 }
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.blaa1 {
+    color: #bad6eb;
+    margin-top: 25rem;
+    margin-left: -40rem;
+    margin-bottom: 55rem;
+    border: #bad6eb solid 1px;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.roed1 {
+    color: #6a1d2c;
+}
+
+
+/* Styling af billeder */
+img {
+    height: 6rem;
+    margin-top: 8rem;
+}
+
+.blaa {
+    margin-left: 20rem;
+}
+
