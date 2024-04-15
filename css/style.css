@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for body */
+
+/* Vi sætter denne store container, som indeholder alle elementerne på siden, i flex, så det bliver nemmere at placere elementerne */
+.stor-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Vi placere herefter de to undercontainer ved hjælp af flex også */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 50%;
+} 
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 50%;
+}
+
+
+/* Vi styler nedunder fonten og baggrundsfarve */
+.container1 {
+    background-color: #212c55;
+}
+
+.container2 {
+    background-color: #efa3bc;
+}
