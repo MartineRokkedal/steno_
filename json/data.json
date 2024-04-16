@@ -43,34 +43,34 @@
         "explanation": "Der er hvert år omkring 400 mennesker i Danmark, som venter på et organ til en transplantation."
       },   
       {
-        "question": "Hvilket organ er der flest, som er på venteliste til at modtage?",
+        "question": "Hvilket organ er flest på venteliste til at modtage?",
         "answers": ["Hjerte", "Nyre", "Lever", "Bugspytskirtel"],
         "correct": 1,
-        "explanation": ""
+        "explanation": "I Danmark er 84% af ventelisten til at få en nyretransplantation."
       },   
       {
-        "question": "",
-        "answers": ["", "", "", ""],
-        "correct": 3,
-        "explanation": ""
+        "question": "Hvilke af disse organer er ikke længere i praksis at transplantere fra afdøde i Danmark?",
+        "answers": ["Hud og tyndtarm", "Bugspytkirtel og tyktarm", "Tyndtarm og knogler", "Hornhinder og milt"],
+        "correct": 0,
+        "explanation": "Selvom man har mulighed for at vælge “hud” og “tyndtarm”, er det ikke længere noget man transplanterer fra afdøde i Danmark. Det skyldes, at den teknologiske udvikling i dag gør det muligt at anvende andet biologisk materiale i stedet for hud."
       },   
       {
-        "question": "",
-        "answers": ["", "", "", ""],
-        "correct": 3,
-        "explanation": ""
+        "question": "Hvad er den typiske dødsårsag i forbindelse med organdonation?",
+        "answers": ["Hjerneblødning", "Trafikulykke", "Hjertestop", "Hjernedød"],
+        "correct": 0,
+        "explanation": "De fleste er døde af en hjerneblødning, men alle fire er hyppige årsager."
       },   
       {
-        "question": "",
-        "answers": ["", "", "", ""],
+        "question": "Hvad er den primære årsag til, at folk bliver taget af ventelisten til organtransplantationen midlertidigt?",
+        "answers": ["Forbedring af organets funktion", "Udvikling af uhelbredelig cancer", "Uventede komplikationer under operationen", "Infektion i kroppen"],
         "correct": 3,
-        "explanation": ""
+        "explanation": "Hvis en patient udvikler en infektion, der ikke indikerer en vellykket transplantation, kan de midlertidigt blive taget af ventelisten."
       },   
       {
-        "question": "",
-        "answers": ["", "", "", ""],
-        "correct": 3,
-        "explanation": ""
+        "question": "Hvor længe kan folk på ventelisten forvente at vente på et organ?",
+        "answers": ["Dage til uger", "Uger til måneder", "Måneder til år", "År til årtier"],
+        "correct": 2,
+        "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år, afhængigt af organets tilgængelighed og behovet."
       },   
       {
         "question": "",
