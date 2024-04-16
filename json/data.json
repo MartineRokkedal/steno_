@@ -1,0 +1,89 @@
+
+[
+    {
+      "question": "Hvor gammel var den ældste organdonor?",
+      "answers": ["54 år", "63 år", "84 år", "92 år"],
+      "correct": 3,
+      "explanation": "Den ældste til at donere i Danmark var 92 år gammel. I 2023 var den ældste donor 84 år."
+    },
+    {
+      "question": "Hvor gammel var størstedelen af de afdøde donorer?",
+      "answers": ["under 40 år", "40-50 år", "50-60 år", "over 60 år"],
+      "correct": 3, 
+      "explanation": "Størstedelen af donorerne var over 60 år. Kun få hundrede danskere dør hvert år på en måde, hvor organdonation bliver en mulighed."
+    },
+    {
+        "question": "Hvornår er organdonation en mulighed?",
+        "answers": ["Når man dør af en stor skade i hjernen", "Når man er indlagt på hospitalet på en intensivafdeling og ligger i respirator", "Når individet selv eller de pårørende har sagt ja til organdonation", "Når ens organer er egnede til transplantation."],
+        "correct": 2, 
+        "explanation": "Det er altafgørende, at der er givet samtykke til donation, før man ser på andre faktorer."
+      },  
+      {
+        "question": "Har flest kvinder eller mænd registreret sig som organdonor?",
+        "answers": ["Kvinder", "Mænd", "Der er lige mange kvinder og mænd", "Kønnet registeres ikke"],
+        "correct": 0,
+        "explanation": "Set i alle aldersgrupper er der flest kvinder, som har registreret sig som organdonor. I aldersgruppen 20-29 er der 5% flere kvinder, der har taget stilling end mænd."
+      }, 
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      },   
+      {
+        "question": "",
+        "answers": ["", "", "", ""],
+        "correct": 3,
+        "explanation": ""
+      }
+]
+  
+
