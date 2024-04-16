@@ -73,16 +73,16 @@
         "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år, afhængigt af organets tilgængelighed og behovet."
       },   
       {
-        "question": "",
+        "question": "Scandiatransplant er en organisation i Skandinavien, som gør det muligt at udveksle organer i de nordiske lande. Hvor mange mennesker årligt får en transplantation gennem Scandiatransplant?",
         "answers": ["", "", "", ""],
         "correct": 3,
         "explanation": ""
       },   
       {
-        "question": "",
-        "answers": ["", "", "", ""],
+        "question": "Hvordan kan du blive organdonor?",
+        "answers": ["Organdonerregisteret", "Donorkort", "Mundtligt samtykke til pårørende", "Alle ovenstående er en mulighed"],
         "correct": 3,
-        "explanation": ""
+        "explanation": "Der er tre måder, kan registrere din holdning til organdonation på, som er juridisk gældende: Organdonorregistret, donorkort og mundtligt samtykke til pårørende."
       }
 ]
   

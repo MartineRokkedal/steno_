@@ -6,14 +6,14 @@
 
 /* Styling for body */
 
-/* Vi sætter denne store container, som indeholder alle elementerne på siden, i flex, så det bliver nemmere at placere elementerne */
+/* Vi sætter denne store container, som indeholder alle elementerne på siden, i flex, så det bliver nemmere at placere elementerne
 .stor-container {
     display: flex;
     flex-direction: row;
-}
+} */
 
 /* Vi placere herefter de to undercontainer ved hjælp af flex også */
-.container1 {
+/* .container1 {
     display: flex;
     flex-direction: row;
     height: 100vh;
@@ -25,11 +25,11 @@
     flex-direction: row;
     height: 100vh;
     width: 50%;
-}
+} */
 
 
 /* Vi styler nedunder fonten og baggrundsfarve */
-.container1 {
+/* .container1 {
     background-color: #212c55;
 }
 
@@ -46,25 +46,85 @@ a {
 .blaa1 {
     color: #bad6eb;
     margin-top: 25rem;
-    margin-left: -40rem;
+    margin-left: -42rem;
     margin-bottom: 55rem;
     border: #bad6eb solid 1px;
     border-radius: 1rem;
-    padding: 4rem;
+    padding: 6rem;
+    padding-top: 4rem;
+}
+
+
+.roed1 {
+    color: #6a1d2c;
+    margin-top: 25rem;
+    margin-left: -21.5rem;
+    margin-bottom: 9rem;
+    border: #6a1d2c solid 1px;
+    border-radius: 1rem;
+    padding: 6rem 11rem;
+    padding-top: 4rem;
+} */
+
+.stor-container {
+    display: flex;
+    height: 100vh;
+}
+
+.container1, .container2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Til relativ positionering */
+}
+
+.container1 {
+    background-color: #212c55;
+}
+
+.container2 {
+    background-color: #efa3bc;
+}
+
+.blaa1, .roed1 {
+    position: absolute; /* Absolut positionering */
+    bottom: 12rem; /* Juster lodret placering efter behov */
+    text-align: center; /* Center teksten */
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 3rem 6rem;
+}
+
+.blaa1 {
+    color: #bad6eb;
+    border: #bad6eb solid 1px;
+    border-radius: 1rem;
 }
 
 .roed1 {
     color: #6a1d2c;
+    border: #6a1d2c solid 1px;
+    border-radius: 1rem;
+    padding: 3rem 12rem;
 }
+
+
 
 
 /* Styling af billeder */
 img {
     height: 6rem;
-    margin-top: 8rem;
+    margin-top: -17rem;
 }
 
 .blaa {
     margin-left: 20rem;
+}
+
+.roed {
+    margin-left: -20rem;
+    margin-top: -17.5rem;
 }
 
