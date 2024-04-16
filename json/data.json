@@ -74,9 +74,9 @@
       },   
       {
         "question": "Scandiatransplant er en organisation i Skandinavien, som gør det muligt at udveksle organer i de nordiske lande. Hvor mange mennesker årligt får en transplantation gennem Scandiatransplant?",
-        "answers": ["", "", "", ""],
+        "answers": ["Omkring 500", "Omkring 1000", "Omkring 1500", "Omkring 2000"],
         "correct": 3,
-        "explanation": ""
+        "explanation": "Årligt modtager omkring 2000 mennesker en transplantation gennem Scandiatransplant."
       },   
       {
         "question": "Hvordan kan du blive organdonor?",
