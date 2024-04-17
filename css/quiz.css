@@ -20,12 +20,25 @@
     background:#212C55 ;
     height: 800px;
     color: #BAD6EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
 }
 
-.quiz, .svarmuligheder {
+.quiz, .svarmuligheder-knapper {
     background: #BAD6EB;
     height: 800px;
     color: #212C55;
+}
+
+.svarmuligheder-knapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .quiz {
