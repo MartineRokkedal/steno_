@@ -7,10 +7,18 @@
 
 /* styler vidoen og knapperne */
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFA3BC;
+    height: 100vh;
+}
 #videoPlayer {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: auto;
     object-fit: cover; /* Gør at videoen fylder hele video-containeren uden at forvrænge forholdet */
+    border: #6A1D2C solid 1px;
 }
 
 #controls {
@@ -21,10 +29,11 @@
 }
 
 #controls button {
-    font-size: 20px;
-    margin-top: -15rem;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: #6A1D2C;
-    background-color: transparent;
+    background-color: #EFA3BC;
     border: #6A1D2C 1px solid;
     border-radius: 5px;
 }
