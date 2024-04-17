@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Jeg sætter den store container i flex, så det er nemmere at placere indholdet */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #efa3bc;
+    height: 100vh;
+}
+
+/* Jeg styler herunder knapperne og placerer dem på midten siden*/
+
+a {
+    text-decoration: none;
+    font-family: newnord-wide, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #6a1d2c;
+}
+
+.mulighed3-roed a {
+    color: #ffc9e0;
+}
+
+.mulighed1-roed {
+    border: #6a1d2c solid 1px;
+    border-radius: 8px;
+    padding: 3rem 8rem;
+    margin-bottom: 3rem;
+}
+
+.mulighed2-roed {
+    border: #6a1d2c solid 1px;
+    border-radius: 8px;
+    padding: 3rem 4rem;
+    margin-bottom: 3rem;
+    background-color: #ffc9e0;
+}
+
+.mulighed3-roed {
+    border: #6a1d2c solid 1px;
+    border-radius: 8px;
+    padding: 1.5rem 7rem;
+    background-color: #6a1d2c;
+    text-align: center;
+}
