@@ -43,3 +43,7 @@ pausePlayBtn.disabled = true;
 finishBtn.disabled = true;
 
 console.log("Script loaded!"); // Tilføj denne linje for at kontrollere, om scriptet indlæses korrekt
+
+
+// ------------------------------------------
+
