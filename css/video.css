@@ -14,11 +14,28 @@
 }
 
 #controls {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #controls button {
-    margin-right: 10px;
-    margin-top: -20.5rem;}
+    font-size: 20px;
+    margin-top: -15rem;
+    color: #6A1D2C;
+    background-color: transparent;
+    border: #6A1D2C 1px solid;
+    border-radius: 5px;
+}
+    
+
+#pausePlayBtn {
+    margin-right: 20px;
+    padding: 8px 14px;
+}
+
+#finishBtn {
+    margin-left: 20px;
+    padding: 8px 16px;
+}
