@@ -47,3 +47,5 @@ console.log("Script loaded!"); // Tilføj denne linje for at kontrollere, om scr
 
 // ------------------------------------------
 
+// quizzen 
+
