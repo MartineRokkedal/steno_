@@ -30,22 +30,6 @@
     background-color: #BAD6EB;
 }
 
-/* .app {
-    background: #fff;
-    width: 90%;
-    max-width: 600px;
-    margin: 100px auto 0;
-    border-radius: 10px;
-    padding: 30px;
-} */
-
-/* .app h1 {
-    font-size: 25px;
-    color: #BAD6EB;
-    font-weight: 600;
-    padding-bottom: 80px;
-} */
-
 .quiz {
     padding: 6rem;
 }
@@ -104,6 +88,12 @@
     background: #F1D1E2;
     color: #6A1D2C;
     border: #6A1D2C solid 1px;
+}
+
+/* Styling af img med hjertebanken */
+
+.hjerte {
+    height: 2rem;
 }
 
 
