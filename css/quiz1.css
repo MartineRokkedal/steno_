@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: newnord-wide, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* styler quizzen */
+
+.quiz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz, .spørgsmål { 
+    background:#212C55 ;
+    height: 800px;
+    color: #BAD6EB; 
+}
+
+.spørgsmål {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quiz, .svarmuligheder-knapper {
+    background: #BAD6EB;
+    height: 800px;
+    color: #212C55;
+}
+
+.svarmuligheder-knapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quiz {
+  padding: 20;
+}
