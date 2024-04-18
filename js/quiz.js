@@ -37,6 +37,7 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const explanationElement = document.getElementById("explanation");
 const nextQuestionButton = document.getElementById("next-question-btn");
+const progressElement = document.getElementById("progress"); // Tilføj denne linje
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -53,6 +54,8 @@ function showQuestion(){
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question; 
+    progressElement.textContent = `${questionNo} / ${questions.length}`; // Opdatere teksten for at vise det aktuelle spørgsmål og det samlede antal
+
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
