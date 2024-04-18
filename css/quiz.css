@@ -5,58 +5,81 @@
     box-sizing: border-box;
 }
 
-body {
-    background: darkblue;
+/* Vi sætter denne store container, som indeholder alle elementerne på siden, i flex, så det bliver nemmere at placere elementerne */ 
+.stor-container {
+    display: flex;
+    height: 100vh;
 }
 
-.app {
+/* Vi placere herefter de to undercontainer ved hjælp af flex også */
+.container1, .container2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Til relativ positionering */
+}
+
+/* Vi styler nedenunder baggrundsfarverne og knapperne */
+.container1 {
+    background-color: #212c55;
+}
+
+.container2 {
+    background-color: #BAD6EB;
+}
+
+/* .app {
     background: #fff;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
-}
+} */
 
-.app h1 {
+/* .app h1 {
     font-size: 25px;
-    color: blue;
+    color: #BAD6EB;
     font-weight: 600;
-    border-bottom: 1px solid #333;
-    padding-bottom: 30px;
-}
+    padding-bottom: 80px;
+} */
 
 .quiz {
-    padding: 20px 0;
+    padding: 6rem;
 }
 
-.quiz h2 {
-    font-size: 18px;
-    color: blue;
-    font-weight: 600;
+.quiz h1 {
+    font-size: 3rem;
+    font-family: newnord-wide, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #BAD6EB;
+}
+
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
 }
 
 .btn {
-    background: #fff;
-    color: #222;
+    font-family: newnord-wide, sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+    background: #BAD6EB;
+    color: #212c55;
     font-weight: 500;
-    width: 100%;
-    border: 1px solid #222;
-    padding: 10px;
-    margin: 10px 0;
+    border: 1.5px solid #212c55;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin: 1rem;
     text-align: left;
-    border-radius: 4px;
+    border-radius: 1rem;
     cursor: pointer;
+    width: 40rem;
+    height: 7rem;
 }
-
-/* .btn:hover:not([disabled]){
-    background: #222;
-    color: #fff;
-}
-
-.btn:disabled{
-    cursor: no-drop;
-} */
 
 #next-btn {
     background: darkblue;
@@ -72,11 +95,16 @@ body {
 }
 
 .correct {
-    background: #9aeabc;
+    background: #CCE2D0;
+    color: #13481B;
+    border: #13481B solid 1px;
 }
 
 .incorrect {
-    background: #ff9393;
+    background: #F1D1E2;
+    color: #6A1D2C;
+    border: #6A1D2C solid 1px;
 }
+
 
 
