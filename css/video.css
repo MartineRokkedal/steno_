@@ -1,50 +1,48 @@
-* {
-    padding: 0;
+body {
     margin: 0;
-    box-sizing: border-box;
-}
+  }
+  
+  /* Styling af video på siden */
 
-
-/* styler vidoen og knapperne */
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EFA3BC;
+  .container {
+    position: relative;
+    width: 100%;
     height: 100vh;
-}
-#videoPlayer {
-    width: 90%;
-    height: auto;
-    object-fit: cover; /* Gør at videoen fylder hele video-containeren uden at forvrænge forholdet */
-    border: #6A1D2C solid 1px;
-}
-
-#controls {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-#controls button {
+  }
+  
+  #videoPlayer {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Sikrer, at videoen fylder hele containeren */
+  }
+  
+  /* Styling af knapper på videoen */
+  
+  #controls {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  #controls button {
+    width: 120px;
+    height: 40px;
     font-family: "montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    color: #6A1D2C;
-    background-color: #EFA3BC;
+    font-size: 18px;
+    background-color: #6A1D2C;
+    color: #F0ACC3;
+    border-radius: 4px;
     border: #6A1D2C 1px solid;
-    border-radius: 5px;
-}
-    
-
-#pausePlayBtn {
-    margin-right: 20px;
-    padding: 8px 14px;
-}
-
-#finishBtn {
-    margin-left: 20px;
-    padding: 8px 16px;
-}
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  #controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
