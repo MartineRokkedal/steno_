@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <!-- link til skrifttype, overskrifter -->
-    <link rel="stylesheet" href="https://use.typekit.net/owj4ymx.css"> 
-    <!-- link til skrifttype, body -->
+    <!-- Link til skrifttype, overskrifter -->
     <link rel="stylesheet" href="https://use.typekit.net/owj4ymx.css"> 
     <!-- Link til stylesheet -->
     <link rel="stylesheet" href="css/quiz.css">
 </head>
 <body>
+
+
 
     <main class="stor-container">
         <section class="container1">
@@ -25,15 +25,22 @@
 
         </section>
         <section class="container2">
+
             <div id="answer-buttons">
                 <button class="btn">Answer1</button>
                 <button class="btn">Answer2</button>
                 <button class="btn">Answer3</button>
                 <button class="btn">Answer4</button>
             </div>
-            <button id="next-btn">Next</button>
-        </section>
-    </main>
+
+            <button id="next-btn">Check Answer</button>
+        </div>
+
+        <div id="explanation" style="display: none;"></div>
+        <button id="next-question-btn" style="display: none;">Next Question</button>
+    </div>
+
+
 
     <script src="js/quiz.js"></script>
 </body>
