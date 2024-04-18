@@ -36,19 +36,21 @@
 
 /* Vi styler nedenunder vores h2 */
 h2 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-family: newnord-wide, sans-serif;
     font-style: normal;
     font-weight: 900;
-    margin-top: -10px;
+    margin-top: -22rem;
 }
 
 .overskrift1 {
     color: #bad6eb;
+    margin-left: 28rem;
 }
 
 .overskrift2 {
     color: #6a1d2c;
+    margin-right: 25.5rem;
 }
 
 
@@ -67,6 +69,7 @@ h2 {
     border-radius: 1rem;
     padding: 3rem;
     margin: 0 3rem;
+    margin-bottom: -2rem;
 }
 
 .roed1 {
@@ -75,12 +78,13 @@ h2 {
     border-radius: 1rem;
     padding: 3rem 9rem;
     margin: 0 3rem;
+    margin-bottom: -2rem;
 }
 
 /* Styling af illustrationerne */
 img {
     height: 6rem;
-    margin-top: 30rem;
+    margin-top: 6rem;
 }
 
 .blaa {
@@ -88,5 +92,5 @@ img {
 }
 
 .roed {
-    margin-left: -20rem;
+    margin-right: 20rem;
 }
