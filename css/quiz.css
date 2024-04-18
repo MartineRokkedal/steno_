@@ -6,12 +6,14 @@
 }
 
 /* Vi sætter denne store container, som indeholder alle elementerne på siden, i flex, så det bliver nemmere at placere elementerne */ 
+
 .stor-container {
     display: flex;
     height: 100vh;
 }
 
 /* Vi placere herefter de to undercontainer ved hjælp af flex også */
+
 .container1, .container2 {
     flex: 1;
     display: flex;
@@ -21,7 +23,8 @@
     position: relative; /* Til relativ positionering */
 }
 
-/* Vi styler nedenunder baggrundsfarverne og knapperne */
+/* Vi styler nedenunder baggrundsfarverne på de to containere */
+
 .container1 {
     background-color: #212c55;
 }
@@ -30,8 +33,11 @@
     background-color: #BAD6EB;
 }
 
+/* Styling af tekst til spørgsmål */
+
 .quiz {
-    padding: 6rem;
+    padding: 4rem;
+    margin-top: 10rem;
 }
 
 .quiz h1 {
@@ -42,15 +48,19 @@
     color: #BAD6EB;
 }
 
+/* Styling af bokse til svarmuligheder */
+
 #answer-buttons {
     display: flex;
     flex-direction: column;
 }
 
+/* Styling af tekst til svarmuligheder */
+
 .btn {
     font-family: newnord-wide, sans-serif;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.4rem;
     background: #BAD6EB;
     color: #212c55;
     font-weight: 500;
@@ -65,6 +75,8 @@
     height: 7rem;
 }
 
+/* Styling af knap til at gå videre */
+
 #next-btn {
     background: darkblue;
     color: #fff;
@@ -77,6 +89,8 @@
     cursor: pointer;
     display: none;
 }
+
+/* Styling af farver der viser rigtig og forkert svar */
 
 .correct {
     background: #CCE2D0;
@@ -94,8 +108,22 @@
 
 .hjerte {
     height: 4rem;
-    margin-right: 40rem;
+    margin-right: 28.2rem;
+    margin-top: 4rem;
 }
+
+/* Styling af hjem-knap */
+
+.hjem-button {
+    font-family: newnord-wide, sans-serif;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: #212c55;
+    text-decoration: none;
+    margin-left: 32rem;
+    margin-top: -4rem;
+}
+
 
 
 
