@@ -139,8 +139,8 @@
         {"text": "Alle ovenstående er en mulighed", "correct": true}
       ],
       "explanation": {
-        "text": "",
-        "image": "../images/" 
+        "text": "Der er tre måder, du kan registrere din holdning til organdonation på, som er juridisk gældende:",
+        "image": "../images/muligheder.webp" 
       }
     }
 
