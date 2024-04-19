@@ -101,7 +101,7 @@
       "explanation": "De fleste er døde af en hjerneblødning, men alle fire er hyppige årsager."
     },
     {
-      "question": "Hvad er den primære årsag til, at folk bliver taget af ventelisten til organtransplantationen midlertidigt?",
+      "question": "Hvad er den primære årsag til, at folk bliver taget af ventelisten til organtransplantationen?",
       "answers": [
         {"text": "Forbedring af organets funktion", "correct": false},
         {"text": "Udvikling af uhelbredelig cancer", "correct": false},
@@ -121,7 +121,7 @@
       "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år, afhængigt af organets tilgængelighed og behovet."
     }, 
     {
-      "question": "Scandiatransplant er en organisation i Skandinavien, som gør det muligt at udveksle organer i de nordiske lande. Hvor mange mennesker årligt får en transplantation gennem Scandiatransplant?",
+      "question": "Hvor mange får årligt en transplantation ved Scandiatransplant, som er en nordisk organisation for organsudveksling?",
       "answers": [
         {"text": "Omkring 500", "correct": false},
         {"text": "Omkring 1000", "correct": false},

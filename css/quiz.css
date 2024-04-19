@@ -36,42 +36,29 @@
 /* Styler tal der viser hvor langt man er i quizzen */
 
 #progress {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: newnord-wide, sans-serif;
     font-style: normal;
     font-weight: 900;
     color: #BAD6EB; 
     margin-top: 1rem;
     position: absolute; /* Ændret til absolut positionering */
-    top: 1rem; /* Tilføjet top: 1rem; */
-    left: 3rem; /* Tilføjet left: 1rem; */
+    top: 1.5rem; 
+    left: 3rem; 
 }
 
 /* Styling af tekst til spørgsmål */
-
-/* .quiz {
-    padding: 4rem;
-    margin-top: 10rem;
-}
-
-.quiz h1 {
-    font-size: 3rem;
-    font-family: newnord-wide, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    color: #BAD6EB;
-    position: absolute;
-} */
 
 .quiz h1 {
     font-family: newnord-wide, san-serif;
     font-style: normal;
     font-weight: 900;
     color: #BAD6EB;
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
     top: 16rem;
     left: 3rem;
+    max-width: 85%;
 }
 
 /* Styling af bokse til svarmuligheder */
@@ -79,6 +66,7 @@
 #answer-buttons {
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 /* Styling af tekst til svarmuligheder */
@@ -110,7 +98,7 @@
     width: 150px;
     border: 0;
     padding: 10px;
-    margin: 20px auto 0;
+    margin: 40rem auto 0;
     border-radius: 4px;
     cursor: pointer;
     display: none;
@@ -144,12 +132,31 @@
 .hjem-button {
     font-family: newnord-wide, sans-serif;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #212c55;
     text-decoration: none;
     position: absolute; /* Ændret til absolut positionering */
-    top: 3rem; /* Tilføjet top: 1rem; */
-    right: 4rem; /* Tilføjet right: 1rem; */
+    top: 3rem; 
+    right: 4rem; 
+}
+
+/* Styling af uddybelse af svar */
+#explanation {
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #212c55;
+    max-width: 80%;
+    line-height: 2rem;
+    position: absolute;
+    top: 16.5rem;
+}
+
+/* Styling af knap */
+
+#next-question-btn {
+
 }
 
 
