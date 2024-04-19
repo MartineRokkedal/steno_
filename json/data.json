@@ -140,7 +140,7 @@
       ],
       "explanation": {
         "text": "Hvis en patient udvikler en infektion, der ikke indikerer en vellykket transplantation, kan de midlertidigt blive taget af ventelisten.",
-        "image": "../images/" // Sti til billedet
+        "image": "../images/" 
       }
     }
 
