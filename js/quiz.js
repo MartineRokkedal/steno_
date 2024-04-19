@@ -3,10 +3,10 @@ fetch('../json/data.json')
   .then(data => {
     const quizData = data;
 
-    // Opret et tomt array til at indeholde dine spørgsmål
+    // Opretter et tomt array til at indeholde dine spørgsmål
     const questions = [];
 
-    // Loop gennem quizData-objektet og opret spørgsmål for hvert element
+    // Loop gennem quizData-objektet og opretter spørgsmål for hvert element
     quizData.forEach(item => {
       const question = {
         question: item.question, // Brug data fra JSON-filen til at sætte spørgsmålet
@@ -15,7 +15,7 @@ fetch('../json/data.json')
         explanation: item.explanation // Brug data fra JSON-filen til at sætte forklaringen
       };
 
-      // Tilføj det oprettede spørgsmål til questions-arrayet
+      // Tilføjer det oprettede spørgsmål til questions-arrayet
       questions.push(question);
     });
 
