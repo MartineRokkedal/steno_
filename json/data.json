@@ -1,89 +1,148 @@
 
-[
+  [
     {
-      "question": "Hvor gammel var den ældste organdonor?",
-      "answers": ["54 år", "63 år", "84 år", "92 år"],
-      "correct": 3,
-      "explanation": "Den ældste til at donere i Danmark var 92 år gammel. I 2023 var den ældste donor 84 år."
+        "question": "Hvor gammel var den ældste organdonor?",
+        "answers": [
+            {"text": "54 år", "correct": false},
+            {"text": "63 år", "correct": false},
+            {"text": "84 år", "correct": false},
+            {"text": "92 år", "correct": true}
+        ],
+        "explanation": "Den ældste til at donere i Danmark var 92 år gammel. I 2023 var den ældste donor 84 år."
     },
     {
-      "question": "Hvor gammel var størstedelen af de afdøde donorer?",
-      "answers": ["under 40 år", "40-50 år", "50-60 år", "over 60 år"],
-      "correct": 3, 
-      "explanation": "Størstedelen af donorerne var over 60 år. Kun få hundrede danskere dør hvert år på en måde, hvor organdonation bliver en mulighed."
+        "question": "Hvor gammel var størstedelen af de afdøde donorer?",
+        "answers": [
+            {"text": "under 40 år", "correct": false},
+            {"text": "40-50 år", "correct": false},
+            {"text": "50-60 år", "correct": false},
+            {"text": "over 60 år", "correct": true}
+        ],
+        "explanation": "Størstedelen af donorerne var over 60 år. Kun få hundrede danskere dør hvert år på en måde, hvor organdonation bliver en mulighed."
     },
     {
         "question": "Hvornår er organdonation en mulighed?",
-        "answers": ["Når man dør af en stor skade i hjernen", "Når man er indlagt på hospitalet på en intensivafdeling og ligger i respirator", "Når individet selv eller de pårørende har sagt ja til organdonation", "Når ens organer er egnede til transplantation."],
-        "correct": 2, 
+        "answers": [
+            {"text": "Når man dør af en stor skade i hjernen", "correct": false},
+            {"text": "Når man er indlagt på hospitalet på en intensivafdeling og ligger i respirator", "correct": false},
+            {"text": "Når individet selv eller de pårørende har sagt ja til organdonation", "correct": true},
+            {"text": "Når ens organer er egnede til transplantation.", "correct": false}
+        ],
         "explanation": "Det er altafgørende, at der er givet samtykke til donation, før man ser på andre faktorer."
-      },  
-      {
+    },
+    {
         "question": "Har flest kvinder eller mænd registreret sig som organdonor?",
-        "answers": ["Kvinder", "Mænd", "Der er lige mange kvinder og mænd", "Kønnet registeres ikke"],
-        "correct": 0,
+        "answers": [
+            {"text": "Kvinder", "correct": true},
+            {"text": "Mænd", "correct": false},
+            {"text": "Der er lige mange kvinder og mænd", "correct": false},
+            {"text": "Kønnet registeres ikke", "correct": false}
+        ],
         "explanation": "Set i alle aldersgrupper er der flest kvinder, som har registreret sig som organdonor. I aldersgruppen 20-29 er der 5% flere kvinder, der har taget stilling end mænd."
-      }, 
-      {
+    },
+    {
         "question": "Hvor gammel skal man være for at tage stilling til organdonation?",
-        "answers": ["0 år", "15 år", "18 år", "23 år"],
-        "correct": 1,
+        "answers": [
+            {"text": "0 år", "correct": false},
+            {"text": "15 år", "correct": true},
+            {"text": "18 år", "correct": false},
+            {"text": "23 år", "correct": false}
+        ],
         "explanation": "Alle, der er fyldt 15 år, har mulighed for at tage stilling til deres holdning til organdonation i Organdonorregistret. Indtil man er 18 år, er det ens forældre, der skal tage den endelige beslutning."
-      },
-      {
-        "question": "Hvilke organer kan doneres efter døden?",
-        "answers": ["Hjerte, lever, lunger, nyrer og bugspytkirtel", "Hud og tyndtarm", "Hjerte, milt og knogler", "Lunger, mave og tarme"],
-        "correct": 0,
-        "explanation": "Mand kan donere alle vitale organer: hjerte, lever, lunger, nyrer og bugspytkirtel. Derudover kan man også donere væv: hornhinder og knogler."
-      },   
-      {
-        "question": "Hvor mange mennesker venter hvert år på et organ i Danmark?",
-        "answers": ["200", "300", "400", "500"],
-        "correct": 2,
-        "explanation": "Der er hvert år omkring 400 mennesker i Danmark, som venter på et organ til en transplantation."
-      },   
-      {
-        "question": "Hvilket organ er flest på venteliste til at modtage?",
-        "answers": ["Hjerte", "Nyre", "Lever", "Bugspytskirtel"],
-        "correct": 1,
-        "explanation": "I Danmark er 84% af ventelisten til at få en nyretransplantation."
-      },   
-      {
-        "question": "Hvilke af disse organer er ikke længere i praksis at transplantere fra afdøde i Danmark?",
-        "answers": ["Hud og tyndtarm", "Bugspytkirtel og tyktarm", "Tyndtarm og knogler", "Hornhinder og milt"],
-        "correct": 0,
-        "explanation": "Selvom man har mulighed for at vælge “hud” og “tyndtarm”, er det ikke længere noget man transplanterer fra afdøde i Danmark. Det skyldes, at den teknologiske udvikling i dag gør det muligt at anvende andet biologisk materiale i stedet for hud."
-      },   
-      {
-        "question": "Hvad er den typiske dødsårsag i forbindelse med organdonation?",
-        "answers": ["Hjerneblødning", "Trafikulykke", "Hjertestop", "Hjernedød"],
-        "correct": 0,
-        "explanation": "De fleste er døde af en hjerneblødning, men alle fire er hyppige årsager."
-      },   
-      {
-        "question": "Hvad er den primære årsag til, at folk bliver taget af ventelisten til organtransplantationen midlertidigt?",
-        "answers": ["Forbedring af organets funktion", "Udvikling af uhelbredelig cancer", "Uventede komplikationer under operationen", "Infektion i kroppen"],
-        "correct": 3,
-        "explanation": "Hvis en patient udvikler en infektion, der ikke indikerer en vellykket transplantation, kan de midlertidigt blive taget af ventelisten."
-      },   
-      {
-        "question": "Hvor længe kan folk på ventelisten forvente at vente på et organ?",
-        "answers": ["Dage til uger", "Uger til måneder", "Måneder til år", "År til årtier"],
-        "correct": 2,
-        "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år, afhængigt af organets tilgængelighed og behovet."
-      },   
-      {
-        "question": "Scandiatransplant er en organisation i Skandinavien, som gør det muligt at udveksle organer i de nordiske lande. Hvor mange mennesker årligt får en transplantation gennem Scandiatransplant?",
-        "answers": ["Omkring 500", "Omkring 1000", "Omkring 1500", "Omkring 2000"],
-        "correct": 3,
-        "explanation": "Årligt modtager omkring 2000 mennesker en transplantation gennem Scandiatransplant."
-      },   
-      {
-        "question": "Hvordan kan du blive organdonor?",
-        "answers": ["Organdonerregisteret", "Donorkort", "Mundtligt samtykke til pårørende", "Alle ovenstående er en mulighed"],
-        "correct": 3,
-        "explanation": "Der er tre måder, kan registrere din holdning til organdonation på, som er juridisk gældende: Organdonorregistret, donorkort og mundtligt samtykke til pårørende."
-      }
+    },
+    {
+      "question": "Hvilke organer kan doneres efter døden?",
+      "answers": [
+          {"text": "Hjerte, lever, lunger, nyrer og bugspytkirtel", "correct": true},
+          {"text": "Hud og tyndtarm", "correct": false},
+          {"text": "Hjerte, milt og knogler", "correct": false},
+          {"text": "Lunger, mave og tarme", "correct": false}
+      ],
+      "explanation": "Man kan donere alle vitale organer:hjerte, lever, lunger, nyrer og bugspytkirtel. Derudover kan man også donere væv: hornhinder og knogler."
+    },
+    {
+      "question": "Hvor mange mennesker venter hvert år på et organ i Danmark?",
+      "answers": [
+          {"text": "200", "correct": false},
+          {"text": "300", "correct": false},
+          {"text": "400", "correct": true},
+          {"text": "500", "correct": false}
+      ],
+      "explanation": "Der er hvert år omkring 400 mennesker i Danmark, som venter på et organ til en transplantation."
+    },
+    {
+      "question": "Hvilket organ er flest på venteliste til at modtage?",
+      "answers": [
+        {"text": "Hjerte", "correct": false},
+        {"text": "Nyre", "correct": true},
+        {"text": "Lever", "correct": false},
+        {"text": "Bugspytkirtel", "correct": false}
+      ],
+      "explanation": "I Danmark er 84% af ventelisten til at få en nyretransplantation."
+    },
+    {
+      "question": "Hvilke af disse organer er ikke længere i praksis at transplantere fra afdøde i Danmark?",
+      "answers": [
+        {"text": "Hud og tyndtarm", "correct": true},
+        {"text": "Bugspytkirtel og tyktarm", "correct": false},
+        {"text": "Tyndtarm og knogler", "correct": false},
+        {"text": "Hornhinder og milt", "correct": false}
+      ],
+      "explanation": "Selvom man har mulighed for at vælge “hud” og “tyndtarm”, er det ikke længere noget man transplanterer fra afdøde i Danmark. Det skyldes, at den teknologiske udvikling i dag gør det muligt at anvende andet biologisk materiale i stedet for hud."
+    },
+    {
+      "question": "Hvad er den typiske dødsårsag i forbindelse med organdonation?",
+      "answers": [
+        {"text": "Hjerneblødning", "correct": true},
+        {"text": "Trafikulykke", "correct": false},
+        {"text": "Hjertestop", "correct": false},
+        {"text": "Hjernedød", "correct": false}
+      ],
+      "explanation": "De fleste er døde af en hjerneblødning, men alle fire er hyppige årsager."
+    },
+    {
+      "question": "Hvad er den primære årsag til, at folk bliver taget af ventelisten til organtransplantationen midlertidigt?",
+      "answers": [
+        {"text": "Forbedring af organets funktion", "correct": false},
+        {"text": "Udvikling af uhelbredelig cancer", "correct": false},
+        {"text": "Uventede komplikationer under operationen", "correct": false},
+        {"text": "Infektion i kroppen", "correct": true}
+      ],
+      "explanation": "Hvis en patient udvikler en infektion, der ikke indikerer en vellykket transplantation, kan de midlertidigt blive taget af ventelisten."
+    },
+    {
+      "question": "Hvor længe kan folk på ventelisten forvente at vente på et organ?",
+      "answers": [
+        {"text": "Dage til uger", "correct": false},
+        {"text": "Uger til måneder", "correct": false},
+        {"text": "Måneder til år", "correct": true},
+        {"text": "År til årtier", "correct": false}
+      ],
+      "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år, afhængigt af organets tilgængelighed og behovet."
+    }, 
+    {
+      "question": "Scandiatransplant er en organisation i Skandinavien, som gør det muligt at udveksle organer i de nordiske lande. Hvor mange mennesker årligt får en transplantation gennem Scandiatransplant?",
+      "answers": [
+        {"text": "Omkring 500", "correct": false},
+        {"text": "Omkring 1000", "correct": false},
+        {"text": "Omkring 1500", "correct": false},
+        {"text": "Omkring 2000", "correct": true}
+      ],
+      "explanation": "Årligt modtager omkring 2000 mennesker en transplantation gennem Scandiatransplant."
+    },
+    {
+      "question": "Hvordan kan du blive organdonor?",
+      "answers": [
+        {"text": "Organdonerregisteret", "correct": false},
+        {"text": "Donorkort", "correct": false},
+        {"text": "Mundtligt samtykke til pårørende", "correct": false},
+        {"text": "Alle ovenstående er en mulighed", "correct": true}
+      ],
+      "explanation": "Der er tre måder, kan registrere din holdning til organdonation på, som er juridisk gældende: Organdonorregistret, donorkort og mundtligt samtykke til pårørende."
+    }
+
 ]
+     
+ 
   
 
