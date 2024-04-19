@@ -63,10 +63,10 @@
     {
       "question": "Hvor mange mennesker venter hvert år på et organ i Danmark?",
       "answers": [
-          {"text": "200", "correct": false},
-          {"text": "300", "correct": false},
-          {"text": "400", "correct": true},
-          {"text": "500", "correct": false}
+          {"text": "200 mennesker", "correct": false},
+          {"text": "300 mennesker", "correct": false},
+          {"text": "400 mennesker", "correct": true},
+          {"text": "500 mennesker", "correct": false}
       ],
       "explanation": "Der er hvert år omkring 400 mennesker i Danmark, som venter på et organ til en transplantation."
     },
@@ -123,10 +123,10 @@
     {
       "question": "Hvor mange får årligt en transplantation ved Scandiatransplant, som er en nordisk organisation for organsudveksling?",
       "answers": [
-        {"text": "Omkring 500", "correct": false},
-        {"text": "Omkring 1000", "correct": false},
-        {"text": "Omkring 1500", "correct": false},
-        {"text": "Omkring 2000", "correct": true}
+        {"text": "Omkring 500 mennesker", "correct": false},
+        {"text": "Omkring 1000 mennesker", "correct": false},
+        {"text": "Omkring 1500 mennesker", "correct": false},
+        {"text": "Omkring 2000 mennesker", "correct": true}
       ],
       "explanation": "Årligt modtager omkring 2000 mennesker en transplantation gennem Scandiatransplant."
     },
