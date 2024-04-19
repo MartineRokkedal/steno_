@@ -91,7 +91,7 @@
 
 /* Styling af knap til at gå videre */
 
-#next-btn {
+/* #next-btn {
     background: darkblue;
     color: #fff;
     font-weight: 500;
@@ -102,7 +102,25 @@
     border-radius: 4px;
     cursor: pointer;
     display: none;
+} */
+
+#next-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 40rem auto 0;
+    cursor: pointer;
 }
+
+#next-btn img {
+    width: 150px;
+    height: auto;
+}
+
+#next-btn:focus {
+    outline: none; /* Fjern fokusstil efter klik */
+}
+
 
 /* Styling af farver der viser rigtig og forkert svar */
 
