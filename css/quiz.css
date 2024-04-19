@@ -154,7 +154,7 @@
     color: #212c55;
     text-decoration: none;
     position: absolute; /* Ændret til absolut positionering */
-    top: 3rem; 
+    top: 2.5rem; 
     right: 4rem; 
 }
 
@@ -171,12 +171,16 @@
     top: 16.5rem;
 }
 
-/* Styling af knap */
-
-#next-question-btn {
-
+/* Styling af knapper (pile) */
+#next-btn {
+    width: 2.5rem;
+    margin-left: 38.5rem;
+    margin-top: 40rem;
 }
 
-
-
+#next-question-btn {
+    width: 2.5rem;
+    margin-left: 34.5rem;
+    margin-top: 40rem;
+}
 

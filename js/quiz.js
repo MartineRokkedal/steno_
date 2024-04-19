@@ -15,6 +15,15 @@ fetch('../json/data.json')
         explanation: item.explanation // Brug data fra JSON-filen til at sætte forklaringen
       };
 
+        // Tjekker om forklaringen indeholder et billede
+    if (typeof question.explanation === 'object' && question.explanation.text && question.explanation.image) {
+    const formattedExplanation = `
+      <p>${question.explanation.text}</p>
+      <img src="${question.explanation.image}" alt="Forklarende billede">
+    `;
+    question.explanation = formattedExplanation;
+    }
+
       // Tilføjer det oprettede spørgsmål til questions-arrayet
       questions.push(question);
     });
@@ -80,7 +89,6 @@ fetch('../json/data.json')
         button.disabled = true;
       });
       nextButton.style.display = "block";
-      nextButton.innerHTML = "Næste";
       nextButton.addEventListener("click", showExplanation);
     }
 
@@ -105,7 +113,6 @@ fetch('../json/data.json')
     function showScore (){
       resetState();
       questionElement.innerHTML = `Du har svaret ${score} ud af ${questions.length} rigtige!`;
-      nextButton.innerHTML = "Prøv igen";
       nextButton.style.display = "block";
       nextButton.addEventListener("click", startQuiz);
     }

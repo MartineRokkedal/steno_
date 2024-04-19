@@ -138,7 +138,10 @@
         {"text": "Mundtligt samtykke til pårørende", "correct": false},
         {"text": "Alle ovenstående er en mulighed", "correct": true}
       ],
-      "explanation": "Der er tre måder, kan registrere din holdning til organdonation på, som er juridisk gældende: Organdonorregistret, donorkort og mundtligt samtykke til pårørende."
+      "explanation": {
+        "text": "Hvis en patient udvikler en infektion, der ikke indikerer en vellykket transplantation, kan de midlertidigt blive taget af ventelisten.",
+        "image": "../images/" 
+      }
     }
 
 ]
