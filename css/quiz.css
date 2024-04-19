@@ -141,7 +141,7 @@
 .hjerte {
     height: 4rem;
     position: absolute;
-    top: 40rem;
+    top: 38rem;
     left: 0rem;
 }
 
@@ -161,26 +161,28 @@
 /* Styling af uddybelse af svar */
 #explanation {
     font-family: "montserrat", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: #212c55;
     max-width: 80%;
     line-height: 2rem;
     position: absolute;
-    top: 16.5rem;
+    top: 16rem;
 }
 
 /* Styling af knapper (pile) */
 #next-btn {
     width: 2.5rem;
-    margin-left: 38.5rem;
+    position: absolute;
+    margin-left: 35.5rem;
     margin-top: 40rem;
 }
 
 #next-question-btn {
     width: 2.5rem;
-    margin-left: 34.5rem;
+    position: absolute;
+    margin-left: 35.5rem;
     margin-top: 40rem;
 }
 
