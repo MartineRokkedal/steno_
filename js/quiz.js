@@ -21,6 +21,7 @@ fetch('../json/data.json')
       <p>${question.explanation.text}</p>
       <img src="${question.explanation.image}" alt="Forklarende billede">
     `;
+    
     question.explanation = formattedExplanation;
     }
 
