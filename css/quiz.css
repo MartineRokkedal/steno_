@@ -69,6 +69,9 @@
     font-weight: 900;
     color: #BAD6EB;
     font-size: 3rem;
+    position: absolute;
+    top: 16rem;
+    left: 3rem;
 }
 
 /* Styling af bokse til svarmuligheder */
@@ -131,8 +134,9 @@
 
 .hjerte {
     height: 4rem;
-    margin-right: 28.2rem;
-    margin-top: 1rem;
+    position: absolute;
+    top: 40rem;
+    left: 0rem;
 }
 
 /* Styling af hjem-knap */
