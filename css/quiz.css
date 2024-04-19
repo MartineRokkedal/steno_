@@ -66,6 +66,7 @@
 #answer-buttons {
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 /* Styling af tekst til svarmuligheder */
@@ -97,7 +98,7 @@
     width: 150px;
     border: 0;
     padding: 10px;
-    margin: 20px auto 0;
+    margin: 40rem auto 0;
     border-radius: 4px;
     cursor: pointer;
     display: none;
@@ -137,6 +138,25 @@
     position: absolute; /* Ændret til absolut positionering */
     top: 3rem; 
     right: 4rem; 
+}
+
+/* Styling af uddybelse af svar */
+#explanation {
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #212c55;
+    max-width: 80%;
+    line-height: 2rem;
+    position: absolute;
+    top: 16.5rem;
+}
+
+/* Styling af knap */
+
+#next-question-btn {
+
 }
 
 
