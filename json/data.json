@@ -118,7 +118,7 @@
         {"text": "Måneder til år", "correct": true},
         {"text": "År til årtier", "correct": false}
       ],
-      "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år, afhængigt af organets tilgængelighed og behovet."
+      "explanation": "Ventelisten kan variere, men de fleste kan forvente at vente fra måneder til år,\nafhængigt af organets tilgængelighed og behovet."
     }, 
     {
       "question": "Hvor mange får årligt en transplantation ved Scandiatransplant, som er en nordisk organisation for organsudveksling?",
