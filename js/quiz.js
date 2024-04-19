@@ -1,36 +1,24 @@
-const questions = [
-    {
-        question: "Hvor gammel var den ældste donor i Danmark",
-        answers: [
-            {text: "54 år", correct: false},
-            {text: "63 år", correct: false},
-            {text: "84 år", correct: false},
-            {text: "92 år", correct: true},
-        ],
-        explanation: "Den ældste til at donere i Danmark var 92 år gammel. I 2023 var den ældste donor 84 år."
+fetch('../json/data.json')
+  .then(response => response.json())
+  .then(data => {
+    const quizData = data;
 
-    }, 
-    {
-        question: "Hvor gammel var størstedelen af de afdøde donorer?",
-        answers: [
-            {text: "under 40 år", correct: false},
-            {text: "40 - 50 år", correct: false},
-            {text: "50 - 60 år", correct: false},
-            {text: "Over 60 år", correct: true},
-        ],
-        explanation: "Størstedelen af donorerne var over 60 år. Kun få hundrede danskere dør hvert år på en måde, hvor organdonation bliver en mulighed."
-    },
-    {
-        question: "Hvornår er organdonation en mulighed?",
-        answers: [
-            {text: "Når man dør af en stor skade i hjernen", correct: false},
-            {text: "Når man er indlagt på hospitalet på en intensivafdeling og ligger i respirator", correct: false},
-            {text: "Når individet selv eller de pårørende har sagt ja til organdonation", correct: true},
-            {text: "Når ens organer er egnede til transplantation.", correct: false},
-        ],
-        explanation: "Det er altafgørende, at der er givet samtykke til donation, før man ser på andre faktorer."
-    }  
-];
+    // Opret et tomt array til at indeholde dine spørgsmål
+    const questions = [];
+
+    // Loop gennem quizData-objektet og opret spørgsmål for hvert element
+    quizData.forEach(item => {
+      const question = {
+        question: item.question, // Brug data fra JSON-filen til at sætte spørgsmålet
+        answers: item.answers,
+        correctAnswerIndex: item.correct, // Brug data fra JSON-filen til at sætte det korrekte svar-indeks
+        explanation: item.explanation // Brug data fra JSON-filen til at sætte forklaringen
+      };
+
+      // Tilføj det oprettede spørgsmål til questions-arrayet
+      questions.push(question);
+    });
+
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -125,3 +113,5 @@ function showScore (){
 }
 
 startQuiz();
+
+})
