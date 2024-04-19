@@ -80,7 +80,6 @@ fetch('../json/data.json')
         button.disabled = true;
       });
       nextButton.style.display = "block";
-      nextButton.innerHTML = "Næste";
       nextButton.addEventListener("click", showExplanation);
     }
 
@@ -105,7 +104,6 @@ fetch('../json/data.json')
     function showScore (){
       resetState();
       questionElement.innerHTML = `Du har svaret ${score} ud af ${questions.length} rigtige!`;
-      nextButton.innerHTML = "Prøv igen";
       nextButton.style.display = "block";
       nextButton.addEventListener("click", startQuiz);
     }
