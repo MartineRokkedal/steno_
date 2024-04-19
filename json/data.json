@@ -58,7 +58,7 @@
           {"text": "Hjerte, milt og knogler", "correct": false},
           {"text": "Lunger, mave og tarme", "correct": false}
       ],
-      "explanation": "Man kan donere alle vitale organer:hjerte, lever, lunger, nyrer og bugspytkirtel. Derudover kan man også donere væv: hornhinder og knogler."
+      "explanation": "Man kan donere alle vitale organer: hjerte, lever, lunger, nyrer og bugspytkirtel. Derudover kan man også donere væv: hornhinder og knogler."
     },
     {
       "question": "Hvor mange mennesker venter hvert år på et organ i Danmark?",
