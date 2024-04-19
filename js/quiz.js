@@ -119,4 +119,24 @@ fetch('../json/data.json')
 
     startQuiz();
 
+    function showScore (){
+        resetState();
+        questionElement.innerHTML = `Du har svaret ${score} ud af ${questions.length} rigtige!`;
+        nextButton.style.display = "block";
+        nextButton.addEventListener("click", redirectToQuizEndPage); // Tilføj eventlistener til knappen
+    }
+    
+    function redirectToQuizEndPage() {
+        // Tjek om alle spørgsmål er blevet besvaret
+        if (currentQuestionIndex === questions.length) {
+            // Hvis alle spørgsmål er blevet besvaret, omdiriger brugeren til "quiz-slut.html"
+            window.location.href = "quiz-slut.html";
+        } else {
+            // Hvis der stadig er ubesvarede spørgsmål, gå videre til næste spørgsmål
+            handleNextButton();
+        }
+    }
+    
+    startQuiz();
+
   })
