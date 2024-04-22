@@ -18,7 +18,7 @@
             {"text": "50-60 år", "correct": false},
             {"text": "over 60 år", "correct": true}
         ],
-        "explanation": "Størstedelen af donorerne var over 60 år. Kun få hundrede danskere dør hvert år på en måde, hvor organdonation bliver en mulighed."
+        "explanation": "Størstedelen af donorerne var over 60 år. \nKun få hundrede danskere dør hvert år på en måde, hvor organdonation bliver en mulighed."
     },
     {
         "question": "Hvornår er organdonation en mulighed?",

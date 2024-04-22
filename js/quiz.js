@@ -3,6 +3,8 @@ fetch('../json/data.json')
   .then(data => {
     const quizData = data;
 
+
+
     // Opretter et tomt array til at indeholde dine spørgsmål
     const questions = [];
 
