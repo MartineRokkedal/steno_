@@ -50,7 +50,7 @@ fetch('../json/data.json')
       resetState();
       let currentQuestion = questions[currentQuestionIndex];
       let questionNo = currentQuestionIndex + 1;
-      questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+      questionElement.innerHTML =   currentQuestion.question;
       progressElement.textContent = `${questionNo} / ${questions.length}`;
 
       currentQuestion.answers.forEach(answer => {
@@ -112,17 +112,12 @@ fetch('../json/data.json')
     }
 
     function showScore (){
-      resetState();
-      questionElement.innerHTML = `Du har svaret ${score} ud af ${questions.length} rigtige!`;
-      nextButton.style.display = "block";
-      nextButton.addEventListener("click", startQuiz);
-    }
-
-    startQuiz();
-
-    function showScore (){
         resetState();
-        questionElement.innerHTML = `Du har svaret ${score} ud af ${questions.length} rigtige!`;
+        questionElement.innerHTML = `Du har svaret rigtigt på ${score} ud af ${questions.length} spørgsmål`;
+
+        const scoreImage = document.getElementById("scoreImage");
+        scoreImage.style.display = "block";
+
         nextButton.style.display = "block";
         nextButton.addEventListener("click", redirectToQuizEndPage); // Tilføj eventlistener til knappen
     }

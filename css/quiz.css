@@ -184,5 +184,13 @@
     position: absolute;
     margin-left: 35.5rem;
     margin-top: 40rem;
+    cursor: pointer;
+}
+
+/* jeg styler billeder */
+
+#scoreImage {
+    width: 35rem;
+    margin-top: 21rem;
 }
 
