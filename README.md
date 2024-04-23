@@ -117,5 +117,3 @@ Vi har også anvendt CSS til elementer "correct" og "incorrect". Herunder har vi
 ```
 
 Samlet set giver denne implementering af JSON, JavaScript og CSS en visuel feedback til brugeren, der angiver, om deres svar er korrekte eller forkerte, hvilket forbedrer brugeroplevelsen af ​​quizzen.
-
-
